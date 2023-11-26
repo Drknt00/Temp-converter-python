@@ -1,0 +1,15 @@
+Basic Python Temperature Converter
+# Project 2: Temperature Converter
+# Step 1: Prompt the user
+
+fahrenheit_str = input('Input Fahrenheit: ')
+fahrenheit = float(fahrenheit_str)
+
+# Step 2: Calculate the Celsius temperature using the formula: (°F − 32) × 5/9
+# Step 3: Round the Celsius temperature to 2 decimal places
+
+celsius = (fahrenheit - 32) * 5 / 9
+celsius = round(celsius, 2)
+
+# Step 4: Print the Celsius temperature
+print(f'Celsius equivalent: {celsius}°C')
